@@ -1,6 +1,10 @@
 Based on Moduli of Weighted Hyperplane Arrangements by Valery Alexeev. This book can be found on amazon.
 
 
+TODO: the n=8 case ha been highly optimized for dual Threadripper systems already. Here the n=9 still needs optimization work to be able to compute the full tiling of n=9. Any work on this is welcomed as PR and will be integrated if it improves the current implementation. Structural algorithmic improvements are welcomed and perf-tools based improvements are highly appreciated; currently the instruction retirement rate is very low, less than in 1 in my testing with ZEN Threadripper, and the L1 cache miss rate is also very high so we need to work on data locality.
+
+The full tilings will be placed as releases of this repo. As that is the actual result we are looking for with this code.
+
 # Alexeev rank-3 tiling enumerator — n=9 wide auto tuning
 
 This project enumerates Alexeev-style rank-3 matroid-polytopal tilings of
