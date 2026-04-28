@@ -1,0 +1,34 @@
+# Expected validation counts for the included reference data
+
+orbit_representatives:
+  n=4  1
+  n=5  4
+  n=6  15
+  n=7  52
+  n=8  187
+
+hypersimplex_vertices:
+  n=4  4
+  n=5  10
+  n=6  20
+  n=7  35
+  n=8  56
+
+distinct_labeled_images:
+  n=4  1
+  n=5  36
+  n=6  801
+  n=7  19638
+  n=8  788763
+
+quotient_tilings_including_trivial:
+  n=4  1
+  n=5  3
+  n=6  26
+
+lattice_total_volume_uniform_orbit:
+  n=4  1
+  n=5  11
+  n=6  66
+  n=7  302
+  n=8  1191
